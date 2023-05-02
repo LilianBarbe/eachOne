@@ -35,16 +35,13 @@ $(document).ready(function () {
   // ----------- //
   // Que le candidat choisisse son rayon
 
-  // if (
-    // opportunity === "reciGisC64vmdM7bJ" ||
-    // opportunity === "recAIFnznhCHv93ML"
-  // ) {
-    // www.eachone.co/formations/employe-e-de-commerce-ile-de-france-franprix-ile-de-france-mai-2023-formation-remuneree
-    // www.eachone.co/formations/employe-e-de-rayon-lyon-monoprix-septembre-2023-formation-remuneree
-    // choixRayon.show();
-  // } else {
-    // choixRayon.hide();
-  // }
+if (
+opportunity === "recBUrfiaGtvxOWyY" || opportunity === "autreOption"
+) {
+choixRayon.show();
+} else {
+choixRayon.hide();
+ }
   // ----------- //
 
   const params = new URLSearchParams(window.location.search);
