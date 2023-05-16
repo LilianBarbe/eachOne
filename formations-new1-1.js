@@ -36,7 +36,7 @@ $(document).ready(function () {
   // Que le candidat choisisse son rayon
 
 if (
-opportunity === "recBUrfiaGtvxOWyY" || opportunity === "autreOption"
+opportunity === "optionUne" || opportunity === "autreOption"
 ) {
 choixRayon.show();
 } else {
