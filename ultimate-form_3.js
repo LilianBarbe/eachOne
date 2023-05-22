@@ -129,3 +129,5 @@ $(document).ready(function () {
     // Autofill (1Password, Chrome, etc.) n'est plus dispo
   });
 });
+
+console.log("Script working");
