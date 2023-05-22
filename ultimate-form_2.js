@@ -1,7 +1,7 @@
 // Mes constantes //
 params = new URLSearchParams(window.location.search);
 // On ajoute la possibilité d'utiliser les params
-$("input[name='contact_mail_address']").attr("disabled", true);
+$("input[data-name='contact_mail_address']").attr("disabled", true);
 // On désactive le champ email
 let traduction = $(".formly_label-en-ar"); // Le div avec traduction anglais et arabe
 let societyLastQuestionWrap = $("#last-question"); // La question en + pour Society
@@ -61,7 +61,7 @@ $(document).ready(function () {
     // Si y'a email dans le param
     let email = params.get("email");
     // On capture la valeur dans email
-    $("input[name='contact_mail_address']").val(email);
+    $("input[data-name='contact_mail_address']").val(email);
   }
 
   // REDIRECTION //
